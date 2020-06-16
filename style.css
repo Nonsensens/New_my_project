@@ -211,3 +211,63 @@ header {
         margin-left: 330px;
     }
 }
+
+.between {
+    text-align: center;
+    
+}
+.cont_beetween {
+    max-width: 515px;
+    margin: auto;
+}
+.hh1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.hh1 h1{
+    color: #7b6c63;
+    font-family: "Raleway - Semi Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.line {
+    width: 76px;
+    height: 6px;
+    background-color: #7b6c63;
+    margin: auto;
+}
+.pp1 {
+    padding-top: 47px;
+}
+.pp1 p{
+    color: #212121;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.9px;
+    padding-bottom: 92px;
+}
+@media (max-width:500px){
+    .hh1 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .line{
+        width: 56px;
+        height: 3px;
+    }
+    .pp1{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .hh1 h1{
+        font-size: 20px;
+    } 
+    .pp1 p{
+        font-size: 15px;
+    }   
+}
