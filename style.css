@@ -263,6 +263,9 @@ header {
         padding-top: 30px;
         padding-bottom: 40px;
     }
+    .pp1 p{
+        padding-bottom: 40px;
+    }
     .hh1 h1{
         font-size: 20px;
     } 
