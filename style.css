@@ -450,6 +450,7 @@ header {
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0.8px;
+    padding-bottom: 66px;
 }
 @media (max-width:630px){
     .row{
@@ -492,5 +493,49 @@ header {
         font-weight: 400;
         line-height: 1;
         letter-spacing: 0.8px;
+    }
+}
+.skills {
+    background-image: url(img/Layer_7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    opacity: 0.95;
+}
+.zag {
+    text-align: center;
+    padding-top: 105px;
+}
+.zag h1{
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding-bottom: 40px;
+}
+.row_flax {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.card {
+   padding-bottom: 86px;
+   padding-right: 80px;
+}
+.card img{
+   
+}
+@media (max-width:1280px){
+    .row_flax{
+        flex-direction: column-reverse;
+    }
+    .card{
+        padding-right: 0px;
+        
+        
     }
 }
