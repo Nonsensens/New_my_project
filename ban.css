@@ -1,0 +1,4 @@
+.sp1 {
+  font-size: calc( 25px + 15 * ((100vw - 320px) / 960));
+}
+/*# sourceMappingURL=ban.css.map */

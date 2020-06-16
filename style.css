@@ -317,6 +317,7 @@ header {
     height: 50px;
     border: 2px solid #000000;
     background-color:transparent;
+    cursor: pointer;
 }
 .read_a {
     margin: auto;
@@ -385,4 +386,111 @@ header {
         padding-left: 15px;
     }
 }
+.services {
+}
+.text_services {
+    margin: auto;
+    text-align: center;
+}
+.text_services h1{
+    padding-top: 90px;
+    padding-bottom: 37px;
+    color: #7b6c63;
+    font-family: "Raleway - Semi Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.text_services p{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    max-width: 991px;
+    margin: auto;
+    padding-bottom: 89px;
+}
+.row {
+    max-width: 1137px;
+    display: flex;
+    margin: 0 350px;
+    align-items: center;
+    justify-content: center;
 
+    
+}
+.item:nth-child(1){
+    margin-right: 65px;
+}
+.item:nth-child(2){
+    margin-right: 65px;
+}
+.item {
+    text-align: center;
+}
+.item h1{
+    margin-top: 19px;
+    margin-bottom: 28px;
+    color: #363636;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+.item p{
+    color: #949494;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.8px;
+}
+@media (max-width:630px){
+    .row{
+        flex-direction: column; 
+        max-width: 1137px;
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: center;   
+    }
+    .item{
+        margin-right: 100px;
+        text-align: none;
+        padding-bottom: 30px;
+    }
+    .item:nth-child(1){
+        margin-right: 0
+    }
+    .item:nth-child(3){
+        margin-right: 0;
+    }
+    .item:nth-child(2){
+        margin-right: 0;
+    }
+    .item h1{
+        margin-top: 19px;
+        margin-bottom: 28px;
+        color: #363636;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+    }
+    .item p{
+        color: #949494;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.8px;
+    }
+}
