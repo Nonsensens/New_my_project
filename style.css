@@ -187,6 +187,7 @@ header {
 @media (max-width:780px){
     .container_bod h1{
         font-size: 30px;
+        line-height: 35px;
     }
 }
 @media (max-width:780px){
@@ -202,3 +203,7 @@ header {
         font-size: 20px;
     }
 }
+@media (max-width:400px){
+    .logo h1{
+        margin-left: 330px;
+    }
