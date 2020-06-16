@@ -130,13 +130,16 @@ header {
 
 
 .bt1 {
+    display: flex;
     text-decoration: none;
     width: 264px;
     height: 60px;
     background-color: transparent;   
     border: 1px solid #fff;
+    text-align: center;
 }
 .bt{
+    padding-top: 14px;
     text-decoration: none;
     color: #ffffff;
     font-family: Raleway;
@@ -147,13 +150,9 @@ header {
     font-family: Raleway;
     font-family: "Font Awesome";
     letter-spacing: 1.6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 6px;
-    margin-top: 10px;
-    padding-bottom: 13px;
+    height: 100%;
+    width: 100%;
+    
 }
 .bt1:hover{
     background-color: #fff;
@@ -271,3 +270,116 @@ header {
         font-size: 15px;
     }   
 }
+.best {
+}
+.row_flex {
+    display: flex;
+}
+.left1 {
+    padding-left: 375px;
+    background-color: #f5f5f5;
+}
+.text_left {
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+.text_left p{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.8px;
+}
+.hah {
+    padding-top: 88px;
+    padding-bottom: 37px;
+    color: #7b6c63;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.pap {
+    padding-bottom: 50px;
+}
+.pap1{
+    
+}
+.read {
+    display: flex;
+    width: 169px;
+    height: 50px;
+    border: 2px solid #000000;
+    background-color:transparent;
+}
+.read_a {
+    margin: auto;
+    text-decoration: none;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+.read:hover{
+    background-color:#fff ;
+}
+.right1 {
+    background-color: #f5f5f5;
+}
+.right1 img{
+    width: 100%;
+}
+@media (max-width:1232px){
+    .row_flex{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:1150px){
+    .left1 {
+        padding-left: 175px;
+    }
+}
+@media (max-width:800px){
+    .left1 {
+        padding-left: 125px;
+    }
+}
+@media (max-width:700px){
+    .left1 {
+        padding-left: 75px;
+    }
+}
+@media (max-width:600px){
+    .text_left{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width:550px){
+    .left1 {
+        padding-left: 55px;
+    }
+    .text_left p{
+        font-size: 10px;
+    }
+    .hah{
+        font-size: 15px;
+        padding-top: 50px;
+    }
+    .pap{
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:375px){
+    .left1 {
+        padding-left: 15px;
+    }
+}
+
