@@ -187,7 +187,10 @@ header {
 @media (max-width:780px){
     .container_bod h1{
         font-size: 30px;
+<<<<<<< HEAD
         line-height: 35px;
+=======
+>>>>>>> master
     }
 }
 @media (max-width:780px){
@@ -202,8 +205,12 @@ header {
     .container_bod h1{
         font-size: 20px;
     }
+<<<<<<< HEAD
 }
 @media (max-width:400px){
     .logo h1{
         margin-left: 330px;
     }
+=======
+}
+>>>>>>> master
