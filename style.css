@@ -792,7 +792,7 @@ header {
 }
 .item1 img{
     background-color: black;
-    margin-bottom: 50px;
+    margin-bottom: 49px;
 }
 .item1:not(:last-child) {
     margin-right: 30px;
