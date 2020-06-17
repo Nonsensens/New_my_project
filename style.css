@@ -87,6 +87,9 @@ header {
     padding-left: 365px;
     padding-bottom: 184px;
     margin-left: -10px;
+
+    height: 100%;
+    width: 100%;
 }
 .container_bod {
     max-width: 1160px;
@@ -216,7 +219,7 @@ header {
     
 }
 .cont_beetween {
-    max-width: 515px;
+    
     margin: auto;
 }
 .hh1 {
@@ -539,3 +542,40 @@ header {
         
     }
 }
+.rawi{
+    display: flex;
+    position: relative;
+    left:0
+}
+.s1tph {
+    display: flex;
+}
+.s2tph {
+    display: flex;
+}
+
+@media (max-width:1800px){
+    .rawi{
+        display: inline-block;
+    }
+}
+@media (max-width:983px){
+    .rawi{
+        flex-direction: column;
+    }
+    .s1tph {
+        display: flex;
+        flex-direction: column;
+    }
+    .s2tph {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:500px){
+    .rawi{
+        width: 300px;
+        height: auto;
+    }
+}
+
