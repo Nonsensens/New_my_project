@@ -723,3 +723,116 @@ header {
     }
 }
 
+
+.twitter {
+    padding-top: 136px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+.zaga {
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.paga {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    padding-bottom: 23px;
+}
+.sila {
+    padding-bottom: 136px;
+}
+.sila a{
+    color: #29c5f2;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    
+}
+.sila a:hover{
+    color:red
+}
+
+
+.team_members {
+    text-align: center;
+    padding-top: 89px;
+}
+.zogo {
+    padding-bottom: 49px;
+}
+.zogo h1{
+    color: #7b6c63;
+    font-family: "Raleway - Semi Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+.line {
+
+}
+.members_row {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.item1 {
+    
+}
+.item1 img{
+    background-color: black;
+    margin-bottom: 50px;
+}
+.item1:not(:last-child) {
+    margin-right: 30px;
+    
+}
+.item1:hover img{
+    
+}
+.about_member {
+    display:flex ;
+    width: 370px;
+    height: 102px;
+    border: 1px solid #f5f5f5;
+    flex-direction: column;
+}
+.about_member h1{
+    margin: auto;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.98px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 3px;
+}
+.about_member p{
+    margin: auto;
+    color: #000000;
+    font-family: "Orator Std";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+@media (max-width:1190px){
+    .members_row{
+        flex-direction: column;
+    }
+}
+
