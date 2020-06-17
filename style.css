@@ -176,7 +176,7 @@ header {
     opacity: 0.95;
 }
 .sp2 {
-    font-size: 30px;
+    font-size: 25px;
     background-color: #303030;
     list-style: none;
     color:#fff;
@@ -185,7 +185,7 @@ header {
 .sp2 li {
     cursor: pointer;
     padding-top: 80px;
-    padding-bottom: 15px;
+    padding-bottom: 6px;
 }
 .sp2 li:hover {
     color:rgb(245, 92, 3)
