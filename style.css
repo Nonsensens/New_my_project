@@ -453,6 +453,9 @@ header {
     padding-bottom: 66px;
 }
 @media (max-width:630px){
+    .services{
+        padding: 0px 15px;
+    }
     .row{
         flex-direction: column; 
         max-width: 1137px;
