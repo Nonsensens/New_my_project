@@ -17,7 +17,6 @@ header {
    max-width: 1166px;
    display: flex ;
    align-items: center;
-
 }
 .logo {
    
@@ -86,8 +85,6 @@ header {
     opacity: 0.9;
     padding-left: 365px;
     padding-bottom: 184px;
-    margin-left: -10px;
-
     height: 100%;
     width: 100%;
 }
