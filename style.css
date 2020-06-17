@@ -94,7 +94,7 @@ header {
 }
 .container_bod {
     max-width: 1160px;
-
+    transition: 1s;
 }
 .container_bod p{
     color: #ffffff;
