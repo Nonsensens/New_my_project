@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-}
+
 .wrapper{
     overflow: hidden;
 
@@ -19,9 +18,7 @@ header {
    display: flex ;
    align-items: center;
 }
-.logo {
-   
-}
+
 .logo h1{
     color: #ffffff;
     font-family: "Oleo Script";
@@ -129,8 +126,6 @@ header {
     letter-spacing: 1.65px;
     color: #7b6c63;
 }
-.text {
-}
 
 
 .bt1 {
@@ -180,23 +175,23 @@ header {
     margin-right: -365px;
     opacity: 0.95;
 }
-.sp2{
+.sp2 {
     font-size: 30px;
     background-color: #303030;
     list-style: none;
     color:#fff;
-
 }
-.sp2 li{
+
+.sp2 li {
     cursor: pointer;
     padding-top: 80px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
-.sp2 li:hover{
+.sp2 li:hover {
     color:rgb(245, 92, 3)
 }
 
-@media (max-width:1326px){
+@media (max-width:1326px) {
     .navi{
         display: none;
     }
@@ -456,9 +451,7 @@ header {
 .pap {
     padding-bottom: 50px;
 }
-.pap1{
-    
-}
+
 .read {
     transition: 0.5s;
     display: flex;
@@ -684,17 +677,13 @@ header {
    padding-bottom: 86px;
    padding-right: 80px;
 }
-.card img{
-   
-}
+
 @media (max-width:1280px){
     .row_flax{
         flex-direction: column-reverse;
     }
     .card{
         padding-right: 0px;
-        
-        
     }
 }
 .rawi{
