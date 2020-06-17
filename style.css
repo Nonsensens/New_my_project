@@ -835,8 +835,10 @@ header {
     .members_row{
         flex-direction: column;
     }
-    .item1:not(last-child) {
+    .item1:not(last-child){
         margin-right: 0px;
+        
+    }
         
 }
 
