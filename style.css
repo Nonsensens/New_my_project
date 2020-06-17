@@ -724,6 +724,9 @@ header {
 }
 
 
+
+
+
 .twitter {
     padding-top: 136px;
     background-color: #1a1a1a;
@@ -755,13 +758,10 @@ header {
     color: #29c5f2;
     letter-spacing: 0.9px;
     text-decoration: none;
-    
 }
 .sila a:hover{
     color:red
 }
-
-
 .team_members {
     text-align: center;
     padding-top: 89px;
@@ -793,8 +793,9 @@ header {
 .item1 img{
     background-color: black;
     margin-bottom: 49px;
+    width: 100%;
 }
-.item1:not(:last-child) {
+.item1:not(last-child) {
     margin-right: 30px;
     
 }
