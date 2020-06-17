@@ -173,17 +173,19 @@ header {
     top:0;
     z-index: 10;
     height: 600px;
-    background-color: #1a1a1a;
+    background-color: #303030;
     width: 100%;
     flex-direction: column;
     text-align: center;
     margin-right: -365px;
+    opacity: 0.95;
 }
 .sp2{
     font-size: 30px;
     background-color: #303030;
     list-style: none;
     color:#fff;
+
 }
 .sp2 li{
     cursor: pointer;
