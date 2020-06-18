@@ -1223,3 +1223,11 @@ header {
     font-weight: 300;
     letter-spacing: 1.72px;
 }
+@media (max-width:1105px){
+    .row_footer{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
