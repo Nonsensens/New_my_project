@@ -1250,6 +1250,7 @@ header {
 }
 
 .arrow_a{
+    margin-bottom: 140px;
     display: flex; 
     justify-content: flex-end; 
     
