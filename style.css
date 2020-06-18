@@ -944,3 +944,158 @@ header {
         
 }
 
+.contact {
+    background-color: #f5f5f5;
+    padding-top: 88px;
+    
+}
+.text_cotact {
+    text-align: center;
+}
+.text_cotact h1{
+    color: #7b6c63;
+    font-family: "Raleway - Semi Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 89px;
+}
+.formaj{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.forma {
+
+}
+.linia{
+    width: 370px;
+    height: 4px;
+    background-color: #242424;
+}
+.linia1{
+    width: 769px;
+    height: 4px;
+    background-color: #242424;
+}
+.flex_input {
+    
+}
+.row_input{
+    display: flex;
+    
+}
+
+.row_1{
+
+}
+.input_ar {
+   
+}
+.input_ar textarea{
+    height: 147px;
+    resize: none;
+    width: 769px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.inp1{
+    margin-right: 29px;
+    outline: none;
+    border: none;
+    width: 370px;
+    height: 74px;
+    background: transparent;
+}
+.inp1 ::placeholder{
+    width: 59px;
+    height: 13px;
+    color: #5b5b5b;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1.76px;
+}
+.inp2{
+    outline: none;
+    border: none;
+    width: 370px;
+    height: 74px;
+    background: transparent;
+}
+.inp ::placeholder{
+    width: 59px;
+    height: 13px;
+    color: #5b5b5b;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1.76px;
+}
+.line_submit{
+    margin:auto;
+    content: "";
+    width: 769px;
+    height: 1px;
+    background-color: #242424;
+    margin-bottom: 30px;
+}
+@media (max-width:800px){
+    .formaj{
+        display: block;
+        text-align: center;
+    }
+    .inp1{
+        margin-right: 9px;
+        outline: none;
+        border: none;
+        max-width: 170px;
+        height: 74px;
+        background: transparent;
+    }
+    .inp2{
+        max-width: 170px;
+    }
+    .linia{
+        width: 140px;
+        height: 4px;
+        background-color: #242424;
+    }
+    
+}
+
+.submit {
+    padding-top: 30px;
+    margin: auto;
+    width: 170px;
+    height: 45px;
+    border: 2px solid #000000;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #00c0f0;;
+}
+.submit button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transform: translateY(-150%);
+    color: #000000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.9px;
+}
+.submit:hover button{
+    background-color: #00c0f0;
+}
