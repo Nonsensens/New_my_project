@@ -1262,6 +1262,7 @@ header {
     border: 45px solid transparent;
     border-top-color: #000;
     border-bottom: 0;
+    display: flex;
     transform: rotate(180deg);
     
 }
