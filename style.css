@@ -1255,7 +1255,7 @@ header {
     
 }
 .arrow{
-    margin-top: -230px;
+    margin-top: -80px;
     position: fixed;
     content: '';
     width: 0;
@@ -1265,4 +1265,10 @@ header {
     border-bottom: 0;
     transform: rotate(180deg);
     
+}
+
+@media (max-width:1650px){
+    .arrow{
+        margin-top: -250px;
+    }
 }
