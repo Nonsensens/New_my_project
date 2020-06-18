@@ -1248,17 +1248,18 @@ header {
         margin-right: 0px;
     }
 }
+
 .arrow_a{
-    display: flex;
-    justify-content: flex-end;
-    z-index: 10;
+    display: flex; 
+    justify-content: flex-end; 
+    z-index: 10; 
 }
 .arrow{
     position: fixed;
     content: '';
     width: 0;
     height: 0;
-    border: 40px solid transparent;
+    border: 30px solid transparent;
     border-top-color: #000;
     border-bottom: 0;
     transform: rotate(180deg);
