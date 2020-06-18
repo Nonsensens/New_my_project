@@ -1250,12 +1250,12 @@ header {
 }
 
 .arrow_a{
-    margin-bottom: 140px;
     display: flex; 
     justify-content: flex-end; 
     
 }
 .arrow{
+    margin-top: -100px;
     position: fixed;
     content: '';
     width: 0;
@@ -1263,7 +1263,6 @@ header {
     border: 45px solid transparent;
     border-top-color: #000;
     border-bottom: 0;
-    display: flex;
     transform: rotate(180deg);
     
 }
