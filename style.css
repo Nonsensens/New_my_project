@@ -1272,3 +1272,18 @@ header {
         margin-top: -280px;
     }
 }
+@media (max-width:1150px){
+    .arrow{
+        margin-top: -170px;
+    }
+}
+@media (max-width:750px){
+    .arrow{
+        margin-top: -70px;
+    }
+}
+@media (max-width:350px){
+    .arrow{
+        margin-top: -280px;
+    }
+}
