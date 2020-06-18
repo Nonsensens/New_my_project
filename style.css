@@ -1391,7 +1391,7 @@ header {
     margin-bottom: 90px;
 }
 /* Активная точка */
-.slick-dots li.slick-active{
+.slick-dots li.slick-active button{
     
     font-size: 0;
     width: 15px;
