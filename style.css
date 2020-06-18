@@ -196,6 +196,7 @@ header {
     }
     .header{
         position: fixed;
+        z-index:100;
     }
     .burger{
         width: 30px;
