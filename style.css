@@ -194,6 +194,9 @@ header {
     .navi{
         display: none;
     }
+    .header{
+        position: fixed;
+    }
     .burger{
         width: 30px;
         height: 20px;
