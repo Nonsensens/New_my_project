@@ -71,12 +71,12 @@ header {
     
 }
 .bod{
-    background-image: url('img/bg.jpg');
+    background-image: url('img/2-layers.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
-    opacity: 0.9;
+    opacity: 0.95;
     padding-left: 365px;
     padding-bottom: 184px;
     height: 100%;
