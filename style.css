@@ -48,6 +48,10 @@ header {
     
     
 }
+.sp1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .sp1 li:not(:last-child){
     margin-right: 40px;
 }
@@ -171,6 +175,10 @@ header {
     background-color: #303030;
     list-style: none;
     color:#fff;
+}
+.sp2 a{
+    color:#fff;
+    text-decoration: none;
 }
 
 .sp2 li {
