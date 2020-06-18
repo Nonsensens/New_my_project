@@ -745,7 +745,7 @@ header {
     align-items: center;    
 }
 .item1 {
-    
+    margin-bottom: 30px; 
 }
 .item1 img{
 }
@@ -926,6 +926,7 @@ header {
     
 }
 .forma {
+    padding: 0px 3px;
     padding-bottom: 78px;
 }
 .linia{
