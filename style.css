@@ -1279,7 +1279,7 @@ header {
 }
 @media (max-width:750px){
     .arrow{
-        margin-top: -70px;
+        margin-top: -10px;
     }
 }
 @media (max-width:350px){
