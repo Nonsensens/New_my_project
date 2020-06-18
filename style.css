@@ -1340,21 +1340,37 @@ header {
 
 
 
-.slick-slider{}
+.slick-slider{
+    border: none;
+    outline: none;
+}
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized{
+    border: none;
+    outline: none;
+}
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted{
+    border: none;
+    outline: none;
+}
 /* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden;
+    border: none;
+    outline: none;
 }
 /* Лента слайдов */
 .slick-track{
     display: flex;
+    border: none;
+    outline: none;
 }
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+    border: none;
+    outline: none;
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
