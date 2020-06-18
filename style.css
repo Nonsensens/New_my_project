@@ -1250,12 +1250,12 @@ header {
 }
 .arrow{
     position: fixed;
-    display: inline-block;
+    display: flex;
     content: '';
     width: 0;
     height: 0;
     border: 40px solid transparent;
-    border-top-color: rgb(245, 92, 3);
+    border-top-color: #000;
     border-bottom: 0;
     transform: rotate(180deg);
     
