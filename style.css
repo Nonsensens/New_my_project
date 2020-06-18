@@ -190,7 +190,7 @@ header {
     color:rgb(245, 92, 3)
 }
 
-@media (max-width:1183px) {
+@media (max-width:1217px) {
     .navi{
         display: none;
     }
@@ -1251,6 +1251,7 @@ header {
 .arrow_a{
     display: flex;
     justify-content: flex-end;
+    z-index: 10;
 }
 .arrow{
     position: fixed;
