@@ -186,7 +186,7 @@ header {
     padding-top: 60px;
     padding-bottom: 6px;
 }
-.sp2 li:hover {
+.sp2 a:hover {
     color:rgb(245, 92, 3)
 }
 
