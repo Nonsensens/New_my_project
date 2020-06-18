@@ -1252,7 +1252,7 @@ header {
 .arrow_a{
     display: flex; 
     justify-content: flex-end; 
-    z-index: 10; 
+    
 }
 .arrow{
     position: fixed;
