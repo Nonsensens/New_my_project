@@ -926,7 +926,7 @@ header {
     
 }
 .forma {
-    padding: 0px 3px;
+    padding: 0px 6px;
     padding-bottom: 78px;
 }
 .linia{
@@ -1065,4 +1065,161 @@ header {
 }
 .submit:hover button{
     background-color: #00c0f0;
+}
+
+.footer {
+    background-color: #222222;
+}
+.row_footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 59px;
+}
+.column_1 {
+    max-width: 282px;
+    margin-right: 29px;
+}
+.column_1 h1{
+    margin-top: 59px;
+    color: #7b6c63;
+    font-family: "Oleo Script";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 29.97px;
+    margin-bottom: 29px;
+}
+.fp1 {
+    color: #929292;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+.fp2 {
+    color: #929292;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.column_2 {
+    max-width: 271px;
+    margin-right: 29px;
+}
+.column_2 h2{
+    margin-top: 59px;
+    margin-bottom: 34px;
+    color: #c2c2c2;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.98px;
+}
+.column_2 p{
+    margin-top: 26px;
+    margin-bottom: 9px;
+    color: #5f5f5f;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.column_2 h3{
+    color: #929292;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.7px;
+}
+
+.line_footer {
+    margin-top: 32px;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 0.1;
+}
+.column_3 {
+    margin-right: 29px;
+    max-width: 269px;
+}
+.column_3 h2{
+    margin-top: 59px;
+    margin-bottom: 25px;
+    color: #c2c2c2;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.98px;
+}
+.column_3 p{
+    margin-top: 25px;
+    margin-bottom: 9px;
+    color: #5f5f5f;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.column_3 span{
+    cursor: pointer;
+    letter-spacing: 1.54px;
+/* Text style for "" */
+    font-size: 12px;
+    letter-spacing: 1.32px;
+    text-transform: uppercase;
+    /* Text style for "Good work" */
+    color: #5e534d;
+}
+.column_3 span:hover{
+    color: red;
+}
+.column_3 h3{
+    color: #929292;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.7px;
+}
+.column_4 {
+    max-width: 266px;
+}
+.column_4 h1{
+    margin-top: 59px;
+    margin-bottom: 25px;
+    color: #c2c2c2;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.98px;
+}
+.column_4 p{
+    color: #929292;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Raleway;
+    letter-spacing: 0.7px;
+}
+.bottom{
+    background-color: #1c1c1c;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom h1{
+    color: #595959;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.72px;
 }
