@@ -1248,9 +1248,12 @@ header {
         margin-right: 0px;
     }
 }
+.arrow_a{
+    display: flex;
+    justify-content: flex-end;
+}
 .arrow{
     position: fixed;
-    display: flex;
     content: '';
     width: 0;
     height: 0;
