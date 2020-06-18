@@ -1333,6 +1333,9 @@ header {
     letter-spacing: 0.8px;
     
 }
+.text_slider a:hover{
+    color:red
+}
 
 
 
